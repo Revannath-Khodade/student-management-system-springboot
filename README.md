@@ -87,7 +87,7 @@ spring.datasource.password=your_password
 mvn spring-boot:run
 
 mvn spring-boot:run
-
+```
 ## 🎯 Interview Ready Explanation
 
 > This is a Spring Boot based Student Management System that performs CRUD operations using MVC architecture.  
