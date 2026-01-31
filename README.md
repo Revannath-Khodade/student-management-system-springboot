@@ -1,246 +1,107 @@
-🎓 Student Management System
+# 🎓 Student Management System
 
+A full-stack **Student Management System** built using **Spring Boot** that allows users to perform CRUD operations (Create, Read, Update, Delete) on student records.
 
-
-A full-stack \*\*Student Management System\*\* built using \*\*Spring Boot\*\* that allows users to perform CRUD operations (Create, Read, Update, Delete) on student records.
-
-
-
-This project follows \*\*MVC architecture\*\* and uses \*\*Spring Data JPA with Hibernate\*\* for database interaction.
-
-
+This project follows **MVC architecture** and uses **Spring Data JPA with Hibernate** for database interaction.
 
 ---
 
+## 🚀 Features
 
-
-\## 🚀 Features
-
-
-
-\- Add new students
-
-\- View list of students
-
-\- Update student details
-
-\- Delete student records
-
-\- MVC based clean architecture
-
-\- Database auto table creation using Hibernate
-
-
+- Add new students
+- View list of students
+- Update student details
+- Delete student records
+- Clean MVC based architecture
+- Automatic table creation using Hibernate
 
 ---
 
+## 🛠️ Tech Stack
 
+### Backend
+- Java
+- Spring Boot
+- Spring MVC
+- Spring Data JPA
+- Hibernate
 
-\## 🛠️ Tech Stack
+### Frontend
+- HTML
+- Thymeleaf
 
+### Database
+- MySQL
 
-
-\### Backend
-
-\- Java
-
-\- Spring Boot
-
-\- Spring MVC
-
-\- Spring Data JPA
-
-\- Hibernate
-
-
-
-\### Frontend
-
-\- HTML
-
-\- Thymeleaf
-
-
-
-\### Database
-
-\- MySQL
-
-
-
-\### Build Tool
-
-\- Maven
-
-
+### Build Tool
+- Maven
 
 ---
 
+## 🧠 Architecture Used
 
-
-\## 🧠 Architecture Used
-
-
-
-
-
-
-
-\- \*\*Controller\*\*: Handles HTTP requests
-
-\- \*\*Service\*\*: Contains business logic
-
-\- \*\*Repository\*\*: Interacts with database using JPA
-
-\- \*\*Entity\*\*: Maps Java objects to database tables
-
-
+- **Controller** – Handles HTTP requests  
+- **Service** – Contains business logic  
+- **Repository** – Interacts with database using JPA  
+- **Entity** – Maps Java objects to database tables  
 
 ---
-
-
-
-\## 📁 Project Structure
-
-
-
-
+## 📁 Project Structure
+```
 
 student-management-system-springboot
-
 │── src
-
 │ ├── main
-
 │ │ ├── java
-
-│ │ │ └── controller, service, repository, entity
-
+│ │ │ └── controller
+│ │ │ └── service
+│ │ │ └── repository
+│ │ │ └── entity
 │ │ └── resources
-
 │ │ ├── templates
-
 │ │ └── application.properties
-
 │── pom.xml
-
 │── README.md
 
+```
+---
 
+## ⚙️ How to Run the Project
 
-
-
-
-
-
-
-
-
-
+### Prerequisites
+- Java 17 or above
+- Maven
+- MySQL running
 
 ---
 
-
-
-\## ⚙️ How to Run the Project
-
-
-
-\### Prerequisites
-
-\- Java 17+ installed
-
-\- Maven installed
-
-\- MySQL running
-
-
-
----
-
-
-
-\### Step 1: Clone the Repository
-
-
+### Step 1: Clone the Repository
 
 ```bash
-
 git clone https://github.com/Revannath-Khodade/student-management-system-springboot.git
-
-
-
-
-
-
-
-
-
-Step 2: Configure Database
-
-
-
-Update application.properties:
-
-
-
-spring.datasource.url=jdbc:mysql://localhost:3306/student\_db
-
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/student_db
 spring.datasource.username=root
+spring.datasource.password=your_password
+```
 
-spring.datasource.password=your\_password
-
-
-
-
-
-
-
-
-
-Step 3: Run the Application
-
+```
+```bash
 mvn spring-boot:run
-
-
-
-
-
-
-
-
-
-Step 4: Access the Application
-
-
-
-Open browser and go to:
-
-
-
+```
+```
 http://localhost:8080/students
+```
+---
 
+## 🎯 Interview Ready Explanation
 
+> This is a Spring Boot based Student Management System that performs CRUD operations using MVC architecture.  
+> Spring Data JPA with Hibernate handles database operations, and Thymeleaf is used for frontend rendering.
 
+---
 
+## 👨‍💻 Author
 
-
-
-
-
-```powershell
-
-git add README.md
-
-git commit -m "Add professional README file"
-
-git push
-
-
-
-
-<img width="960" height="473" alt="image" src="https://github.com/user-attachments/assets/9cde610d-37e5-435a-bd40-f262d5cc9f5e" />
-
-
-<img width="956" height="474" alt="image" src="https://github.com/user-attachments/assets/926529bd-ce00-4165-a328-bb10fce67cb4" />
-
+**Revannath Khodade**  
+GitHub: https://github.com/Revannath-Khodade
