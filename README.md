@@ -87,14 +87,16 @@ spring.datasource.password=your_password
 
 ### Step 3: Run the Application
 
+
 mvn spring-boot:run
 
 ### Step 4: Access the Application
 
+
 http://localhost:8080/students
 
 
-## 🎯 Interview Ready Explanation
+## 🎯 Explanation
 
 > This is a Spring Boot based Student Management System that performs CRUD operations using MVC architecture.  
 > Spring Data JPA with Hibernate handles database operations, and Thymeleaf is used for frontend rendering.
