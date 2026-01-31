@@ -79,14 +79,12 @@ student-management-system-springboot
 
 ```bash
 git clone https://github.com/Revannath-Khodade/student-management-system-springboot.git
-```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/student_db
 spring.datasource.username=root
 spring.datasource.password=your_password
 ```
 
 ```
-```bash
 mvn spring-boot:run
 ```
 ```
