@@ -77,16 +77,22 @@ student-management-system-springboot
 
 ### Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/Revannath-Khodade/student-management-system-springboot.git
 
-spring.datasource.url=jdbc:mysql://localhost:3306/student_db
-spring.datasource.username=root
-spring.datasource.password=your_password
+### Step 2: Configure Database
+
+spring.datasource.url=jdbc:mysql://localhost:3306/student_db  
+spring.datasource.username=root  
+spring.datasource.password=your_password  
+
+### Step 3: Run the Application
 
 mvn spring-boot:run
 
+### Step 4: Access the Application
+
 http://localhost:8080/students
+
 
 ## 🎯 Interview Ready Explanation
 
