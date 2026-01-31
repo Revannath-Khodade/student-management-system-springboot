@@ -76,7 +76,7 @@ student-management-system-springboot
 ---
 
 ### Step 1: Clone the Repository
-
+```
 ```bash
 git clone https://github.com/Revannath-Khodade/student-management-system-springboot.git
 spring.datasource.url=jdbc:mysql://localhost:3306/student_db
