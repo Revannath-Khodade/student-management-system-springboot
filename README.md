@@ -239,24 +239,8 @@ git push
 
 
 
+<img width="960" height="473" alt="image" src="https://github.com/user-attachments/assets/9cde610d-37e5-435a-bd40-f262d5cc9f5e" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="956" height="474" alt="image" src="https://github.com/user-attachments/assets/926529bd-ce00-4165-a328-bb10fce67cb4" />
 
